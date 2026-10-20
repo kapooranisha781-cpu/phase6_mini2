@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quick Notes Saver</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📝 Quick Notes</h1>
+
+        <form id="noteForm">
+
+            <input
+                type="text"
+                id="title"
+                placeholder="Note title"
+                required
+            >
+
+            <textarea
+                id="content"
+                placeholder="Write your note..."
+                required
+            ></textarea>
+
+            <button type="submit">
+                Save Note
+            </button>
+
+        </form>
+
+        <h2>My Notes</h2>
+
+        <div id="notes"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
